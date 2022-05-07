@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>monaco-editor</location>
+    <name>Monaco Editor</name>
+    <license>MIT</license>
+    <version>0.33.0</version>
+    <licenseversion>2016</licenseversion>
+  </library>
+</libraries>
