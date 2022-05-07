@@ -1,0 +1,29 @@
+.que.code textarea.qtype_code_response {
+    width: 100%;
+}
+
+.que.code textarea.qtype_code_response.qtype_code_plain {
+    white-space: pre-wrap;
+    font: inherit;
+}
+
+.que.code textarea.qtype_code_response.qtype_code_monospaced {
+    white-space: pre;
+    font-family: Andale Mono, Monaco, Courier New, DejaVu Sans Mono, monospace;
+}
+
+.que.code .qtype_code_response {
+    min-height: 3em;
+}
+
+.que.code .qtype_code_response.readonly {
+    background-color: white;
+}
+
+.que.code div.qtype_code_response textarea {
+    width: 100%;
+}
+
+.que.code .ablock .filemanager .fp-restrictions {
+    margin-top: 1em;
+}
