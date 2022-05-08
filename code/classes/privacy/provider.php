@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Question type class for the code question type.
+ * Provider class for the code question type.
  *
  * @package    qtype_code
  * @copyright  2022 Maximilian Ranger

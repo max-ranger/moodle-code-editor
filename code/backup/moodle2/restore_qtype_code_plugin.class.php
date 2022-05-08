@@ -15,8 +15,6 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Defines the editing form for the code question type.
- *
  * @package    moodlecore
  * @subpackage backup-moodle2
  * @copyright  2022 Maximilian Ranger
