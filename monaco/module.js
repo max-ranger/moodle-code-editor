@@ -57,14 +57,13 @@ M.editor_monaco = M.editor_monaco || {
             editor = monaco.editor.create(edItem, o);
             edItem.firstElementChild.setAttribute('role', 'application');
             edItem.append(textarea);
+            // Copy the current value back to the textarea when focus leaves us.
+            edItem.addEventListener('blur', function() {
+                editor.getAction('editor.action.formatDocument').run();
+                //editor.trigger('', 'editor.action.formatDocument');
+                textarea.value = editor.getValue();
+            }, true);
         });
-
-        // Copy the current value back to the textarea when focus leaves us.
-        edItem.addEventListener('blur', function() {
-            editor.getAction('editor.action.formatDocument').run();
-            //editor.trigger('', 'editor.action.formatDocument');
-            textarea.value = editor.getValue();
-        }, true);
 
         // Create element with specified properties (attributes) 
         function createElement(type, props) {
